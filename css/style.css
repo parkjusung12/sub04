@@ -1,0 +1,145 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #61564e;}
+ul{list-style: none;}
+body{
+    color: #61564e;
+    font-size: 18px;
+    line-height: 28px;
+    background: url(../images/back.jpg);
+}
+
+/* header */
+#header{
+    background: url(../images/header_back.png) no-repeat center top;
+    width: 100%;
+    height: 198px;
+}
+.header_in{
+    margin: auto;
+    width: 1320px;
+    height: 136px;
+    position: relative;
+}
+
+.top{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.top li{float: left; margin-left: 80px;}
+
+.logo_main{
+    position: absolute;
+    width: 249px;
+    height: 127px;
+    top: 50px;
+    left: 50%;
+    margin-left: -124.5px;
+}
+
+.nav{
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    width: 100%;
+}
+.nav li{float: left; width: 25%;}
+.nav li:nth-child(3){text-align: right;}
+.nav li:nth-child(4){text-align: right;}
+/* header------ */
+
+
+
+/* con1 */
+#con1{
+    margin: 100px auto;
+    width: 1320px;
+}
+
+#con1 h1{text-align: center; margin-bottom: 100px;}
+#con1 h2{margin-bottom: 30px;}
+
+.con1_in{
+    width: 1320px; 
+    height: 550px;
+}
+.con1_in li{float: left; margin-right: 28px;}
+.con1_in li:nth-child(4){margin-right: 0px;}
+
+.con1_in li a{
+    width: 309px;
+    height: 357px;
+}
+
+.con1_in li h3{
+    border-bottom: 1px solid #61564e;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.con1_in li span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.con1_in li .star{float: left; margin: -1px 15px 0 0;}
+.con1_in li .magin{margin-top: 8px; font-weight: bold;}
+
+
+
+/* con2 */
+#con2{
+    margin: 100px auto;
+    width: 1320px;
+}
+
+#con2 h2{margin-bottom: 30px;}
+
+.con2_in{width: 1320px; height: 550px;}
+.con2_in li{float: left; margin-right: 28px;}
+.con2_in li:nth-child(4){margin-right: 0px;}
+
+.con2_in li a{
+    width: 309px;
+    height: 357px;
+}
+
+.con2_in li h3{
+    border-bottom: 1px solid #61564e;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.con2_in li span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/* footer */
+#footer{
+    
+    background: url(../images/footer_back.jpg)no-repeat top center;
+    width: 100%;
+    height:188px;
+}
+
+
+.footer_in{
+    margin: auto;
+    width: 1320px;
+}
+
+.footer_logo{float:left; padding:20px 90px 20px 0;} /*추가함*/
+
+.foo{float: left; padding:50px 0;}
+.ter{float: right;padding:40px 0;}
+
+.ter .ter_in li{
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.icon li{
+    float: left;
+    margin-left: 10px;
+}
